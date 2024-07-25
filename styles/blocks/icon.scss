@@ -1,0 +1,71 @@
+.icon {
+  position: relative;
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-color: currentColor;
+
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+ 
+  &--logo {
+    width: 37px;
+    height: 37px;
+    -webkit-mask-image: url('../images/icons/logo.svg');
+    mask-image: url('../images/icons/logo.svg');
+  }
+
+  &--search {
+    -webkit-mask-image: url('../images/icons/search.svg');
+    mask-image: url('../images/icons/search.svg');
+  }
+
+  &--menu {
+    -webkit-mask-image: url('../images/icons/menu.svg');
+    mask-image: url('../images/icons/menu.svg');
+  }
+
+  &--close {
+    -webkit-mask-image: url('../images/icons/close.svg');
+    mask-image: url('../images/icons/close.svg');
+  }
+
+  &--chevron-right {
+    width: 16px;
+    height: 16px;
+    -webkit-mask-image: url('../images/icons/chevron-right.svg');
+    mask-image: url('../images/icons/chevron-right.svg');
+  }
+
+  &--key-square {
+    -webkit-mask-image: url('../images/icons/key-square.svg');
+    mask-image: url('../images/icons/key-square.svg');
+  }
+
+  &--3d-square {
+    -webkit-mask-image: url('../images/icons/3d-square.svg');
+    mask-image: url('../images/icons/3d-square.svg');
+  }
+
+  &--user-square {
+    -webkit-mask-image: url('../images/icons/user-square.svg');
+    mask-image: url('../images/icons/user-square.svg');
+  }
+
+  &--wallet-money {
+    -webkit-mask-image: url('../images/icons/wallet-money.svg');
+    mask-image: url('../images/icons/wallet-money.svg');
+  }
+
+  &--discount-shape {
+    -webkit-mask-image: url('../images/icons/discount-shape.svg');
+    mask-image: url('../images/icons/discount-shape.svg');
+  }
+
+  &--message-question {
+    -webkit-mask-image: url('../images/icons/message-question.svg');
+    mask-image: url('../images/icons/message-question.svg');
+  }
+}

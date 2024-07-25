@@ -1,0 +1,13 @@
+@import "./normalize.css";
+
+@import "./utils/vars";
+@import "./utils/mixins";
+@import "./utils/typography";
+
+@import "./blocks/page.scss";
+@import "./blocks/icon.scss";
+@import "./blocks/logo.scss";
+@import "./blocks/sidebar.scss";
+@import "./blocks/header.scss";
+@import "./blocks/menu-list.scss";
+@import "./blocks/user.scss";

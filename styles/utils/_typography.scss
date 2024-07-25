@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 500;
+  src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 600;
+  src: url(../fonts/Poppins-SemiBold.ttf);
+}
+
+%logo-text {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 39px;
+  color: $black;
+}
+
+%basic-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 21px;
+}

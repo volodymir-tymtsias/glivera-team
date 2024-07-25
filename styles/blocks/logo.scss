@@ -1,0 +1,25 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  text-decoration: none;
+  @extend %logo-text;
+
+  &__text {
+    display: none;
+    align-items: baseline;
+    gap: 4px;
+
+    @include sm {
+      display: flex;
+    }
+  }
+
+  &__version {
+    line-height: 15px;
+    font-size: 10px;
+    font-weight: 500;
+    color: #838383;
+  }
+}

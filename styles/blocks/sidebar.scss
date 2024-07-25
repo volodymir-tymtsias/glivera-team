@@ -1,0 +1,18 @@
+.sidebar {
+  display: none;
+  background-color: #fff;
+  width: 100%;
+  min-height: 100vh;
+  padding: 36px 28px 76px 28px;
+
+  @include lg {
+    width: 306px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__navigate {
+    margin-top: 53px;
+    margin-bottom: 28px;
+  }
+}

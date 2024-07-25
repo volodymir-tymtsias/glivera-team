@@ -1,0 +1,17 @@
+.page {
+  @extend %basic-text;
+
+  scroll-behavior: smooth;
+
+  &__body {
+    background: $page-bg;
+
+    @include lg {
+      display: flex;
+    }
+
+    &--with-menu {
+      overflow: hidden;
+    }
+  }
+}
