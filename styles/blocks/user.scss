@@ -2,7 +2,8 @@
   display: flex;
   gap: 12px;
   align-items: center;
-  margin-top: auto;
+  width: max-content;
+  padding: 0;
   border: none;
   background-color: transparent;
   @extend %basic-text;

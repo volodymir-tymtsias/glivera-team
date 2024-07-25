@@ -70,7 +70,7 @@
         </ul>
       </nav>
 
-      <button type="button" class="user">
+      <button type="button" class="sidebar__user user">
         <div class="user__avatar">
           <img src="./images/avatar.png" alt="Evano avatar" class="user__img"/>
         </div>
@@ -93,6 +93,80 @@
 
       <a href="#menu" class="header__button icon icon--menu"></a>
     </header>
+
+    <div class="page__mobile-menu" id="menu">
+      <div class="sidebar sidebar--mobile">
+        <header class="header">
+          <a href="#" class="logo">
+            <span class="icon icon--logo"></span>
+            <div class="logo__text">
+              Dashboard
+              <span class="logo__version">v.01</span>
+            </div>
+          </a>
+
+          <a href="#" class="header__button icon icon--close"></a>
+        </header>
+
+        <nav class="sidebar__navigate sidebar__navigate--mobile">
+          <ul class="menu-list">
+            <li>
+              <a href="#" class="menu-list__link">
+                <span class="menu-list__left-icon icon icon--key-square"></span>
+                <span class="menu-list__text-link">Dashboard</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="menu-list__link">
+                <span class="menu-list__left-icon icon icon--3d-square"></span>
+                <span class="menu-list__text-link">Product</span>
+                <span class="menu-list__right-icon icon icon--chevron-right"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="menu-list__link menu-list__link--is-active">
+                <span class="menu-list__left-icon icon icon--user-square"></span>
+                <span class="menu-list__text-link">Customers</span>
+                <span class="menu-list__right-icon icon icon--chevron-right"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="menu-list__link">
+                <span class="menu-list__left-icon icon icon--wallet-money"></span>
+                <span class="menu-list__text-link">Income</span>
+                <span class="menu-list__right-icon icon icon--chevron-right"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="menu-list__link">
+                <span class="menu-list__left-icon icon icon--discount-shape"></span>
+                <span class="menu-list__text-link">Promote</span>
+                <span class="menu-list__right-icon icon icon--chevron-right"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="menu-list__link">
+                <span class="menu-list__left-icon icon icon--message-question"></span>
+                <span class="menu-list__text-link">Help</span>
+                <span class="menu-list__right-icon icon icon--chevron-right"></span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <button type="button" class="sidebar__user user">
+          <div class="user__avatar">
+            <img src="./images/avatar.png" alt="Evano avatar" class="user__img"/>
+          </div>
+
+          <div class="user__info">
+            <p>Evano</p>
+            <p class="user__position">Project Manager</p>
+          </div>
+        </button>
+      </div>
+    </div>
+
     <main></main>
   </body>
 </html>
