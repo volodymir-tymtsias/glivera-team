@@ -219,6 +219,8 @@
 .header__button {
   color: #000000;
   transition: color 0.3s;
+  cursor: pointer;
+  text-decoration: none;
 }
 .header__button:hover {
   color: #9197b3;
@@ -500,8 +502,9 @@
   font-size: 12px;
   line-height: 12px;
   letter-spacing: -0.01em;
-  color: #404B52;
+  color: #404b52;
   transition: all 0.3s;
+  cursor: pointer;
 }
 .pagination__button:hover, .pagination__button--active {
   border-color: #5932ea;

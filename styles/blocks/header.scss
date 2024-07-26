@@ -16,6 +16,8 @@
   &__button {
     color: $black;
     transition: color 0.3s;
+    cursor: pointer;
+    text-decoration: none;
 
     &:hover {
       color: $gray-text;

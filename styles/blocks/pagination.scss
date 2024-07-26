@@ -41,8 +41,9 @@
     font-size: 12px;
     line-height: 12px;
     letter-spacing: -0.01em;
-    color: #404B52;
+    color: #404b52;
     transition: all 0.3s;
+    cursor: pointer;
 
     &:hover,
     &--active {
