@@ -22,18 +22,6 @@
     text-align: left;
   }
 
-  // & thead tr th:first-child {
-  //   @include xl {
-  //     padding-left: 38px;
-  //   }
-  // }
-
-  // & thead tr th:last-child {
-  //   @include xl {
-  //     padding-right: 38px;
-  //   }
-  // }
-
   & tbody tr {
     height: 69px;
     text-align: left;
@@ -49,18 +37,8 @@
     text-align: left;
   }
 
-  // & tbody tr td:first-child {
-  //   @include xl {
-  //     padding-left: 38px;
-  //   }
-  // }
-
   & tbody tr td:last-child {
     text-align: center;
-
-    // @include xl {
-    //   padding-right: 38px;
-    // }
   }
 
   &__status {
