@@ -64,7 +64,7 @@
   transform: translateX(-100%);
   transition: transform 0.3s;
 }
-.page__mobile-menu:target {
+.page__mobile-menu--active {
   transform: translateX(0);
 }
 .page__main {
