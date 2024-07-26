@@ -30,4 +30,17 @@
       transform: translateX(0);
     }
   }
+
+  &__main {
+    flex-grow: 1;
+    padding: 0 28px 41px 28px;
+
+    @include lg {
+      padding: 41px 36px;
+    }
+
+    @include xl {
+      padding: 41px 95px 71px 71px;
+    }
+  }
 }
